@@ -72,7 +72,7 @@
         </sift>
     </appender>
 
-    <root level="INFO">
+    <root level="DEBUG">
         <if condition="${DOCKER:-false}">
             <then>
                 <appender-ref ref="STDOUT"/>
